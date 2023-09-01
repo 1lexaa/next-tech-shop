@@ -11,38 +11,38 @@ const Nav = () => {
           Shop
         </div>
       </Link>
-      <ul className="flex items-center">
+      <ul className="flex items-center text-gray-400">
         <li>
           <Link href="/iphones" replace>
-            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold">
+            <div className="px-4 py-2 border-none rounded-md ml-8  font-bold hover:text-white">
               IPHONE
             </div>
           </Link>
         </li>
         <li>
           <Link href="/watch">
-            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold">
+            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold hover:text-white">
               WATCH
             </div>
           </Link>
         </li>
         <li>
           <Link href="/macbook">
-            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold">
+            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold hover:text-white">
               MACBOOK
             </div>
           </Link>
         </li>
         <li>
           <Link href="/ipad">
-            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold">
+            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold hover:text-white">
               IPAD
             </div>
           </Link>
         </li>
         <li>
           <Link href="/airpods">
-            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold">
+            <div className="px-4 py-2 border-none rounded-md ml-8 font-bold hover:text-white">
               AIRPODS
             </div>
           </Link>

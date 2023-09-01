@@ -3,8 +3,8 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-import { BiArrowBack } from "react-icons/bi";
-import Image from "next/image";
+
+
 
 const Banner = () => {
   return (
@@ -39,6 +39,7 @@ const Banner = () => {
             src="https://jabko.ua/image/cache/cataloge-2/silder-2/2023slider/airpods-pc-2-max-1700.jpg"
             className="h-[600px]  aspect-[16/10] md:aspect-auto object-cover rounded-2xl"
             alt="logo"
+           
           />
         </div>
 

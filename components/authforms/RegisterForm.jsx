@@ -58,10 +58,13 @@ export default function RegisterForm() {
 
   return (
     <div className="grid place-items-center h-screen">
-      <div className="shadow-lg p-5 rounded-lg border-t-4 border-indigo-600">
+      <div className="shadow-lg p-5 rounded-lg border-t-4 border-indigo-600 bg-[#1d1d1d]">
         <h1 className="text-xl font-bold my-4">Register</h1>
 
-        <form onSubmit={handleSumbit} className="flex flex-col gap-3">
+        <form
+          onSubmit={handleSumbit}
+          className="flex flex-col gap-3 text-black"
+        >
           <input
             onChange={(e) => setName(e.target.value)}
             type="text"
@@ -87,7 +90,7 @@ export default function RegisterForm() {
             </div>
           )}
 
-          <Link className="text-sm mt-3 text-right" href={"/"}>
+          <Link className="text-sm mt-3 text-right text-gray-200" href={"/"}>
             Already have an account? <span className="underline">Login</span>
           </Link>
         </form>

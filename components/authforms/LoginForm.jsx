@@ -32,7 +32,7 @@ export default function LoginForm() {
 
   return (
     <div className="grid place-items-center h-screen">
-      <div className="shadow-lg p-6 rounded-lg border-t-4 border-indigo-600 ">
+      <div className="shadow-lg p-6 rounded-lg border-t-4 border-indigo-600 bg-[#1d1d1d]">
         <h1 className="text-xl font-bold my-4">Login</h1>
 
         <form
@@ -59,7 +59,10 @@ export default function LoginForm() {
             </div>
           )}
 
-          <Link className="text-sm mt-3 text-right" href={"/register"}>
+          <Link
+            className="text-sm mt-3 text-right text-gray-300"
+            href={"/register"}
+          >
             Don`t have an account? <span className="underline">Register</span>
           </Link>
         </form>
