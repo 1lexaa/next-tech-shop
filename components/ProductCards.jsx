@@ -3,7 +3,7 @@ import React from "react";
 
 import { MdAddCircleOutline } from "react-icons/md";
 
-const ProductCars = (props) => {
+const ProductCards = (props) => {
   return (
     <div className="m-6 w-[250px] max-w-xs  border rounded-lg shadow bg-[#1d1d1d] border-[#1d1d1d]  ">
       <a href="#">
@@ -16,7 +16,7 @@ const ProductCars = (props) => {
       <div className="px-5 pb-5">
         <a href="">
           <h5 className="text-xl font-semibold tracking-tight text-white">
-            {props.title}
+            {props.title} {props.color}
           </h5>
         </a>
         <div className="flex items-center mt-2.5 mb-5"></div>
@@ -31,4 +31,4 @@ const ProductCars = (props) => {
   );
 };
 
-export default ProductCars;
+export default ProductCards;

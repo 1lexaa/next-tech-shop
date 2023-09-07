@@ -12,7 +12,7 @@ export default function HomePage() {
 
       <Banner />
 
-      <h1 className="text-center mt-20 text-3xl font-semibold">MOST POPULAR</h1>
+      <h1 className="text-center  text-3xl font-semibold">MOST POPULAR</h1>
       <div className="ml-20 mt-10 flex justify-start flex-wrap ">
         <ProductCard
           image="https://jabko.ua/image/cache/catalog/products/2022/09/072253/photo_2022-09-07_22-53-30%20(1)-300x300.jpg"
