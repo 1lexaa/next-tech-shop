@@ -1,9 +1,11 @@
 "use client";
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
+
 import ProductCard from "@/components/ProductCards";
 import Nav from "@/components/Nav";
 import React from "react";
+
 
 export default function HomePage() {
   return (

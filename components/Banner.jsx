@@ -31,15 +31,16 @@ const Banner = () => {
         //   </div>
         // )}
       >
-        <div className="object-fill">
+        <div className="object-fill overflow-hidden">
           <img
-            src="https://jabko.ua/image/cache/cataloge-2/silder-2/2023slider/airpods-pc-2-max-1700.jpg"
+            // src="https://jabko.ua/image/cache/cataloge-2/silder-2/2023slider/airpods-pc-2-max-1700.jpg"
+            src="https://img.jabko.ua/image/cache//catalog/products/2023/05/181643/imgonline-com-ua-Resize-8Db9fiHyfull.jpeg.webp"
             className="h-[500px]  aspect-[16/10] md:aspect-auto object-cover rounded-2xl"
             alt="logo"
           />
         </div>
 
-        <div className="object-fill">
+        <div className="object-contain">
           <img
             src="https://jabko.ua/image/cache/cataloge-2/silder-2/2023slider/14-pro-max-pc-3-max-1700.jpg"
             className="h-[500px] aspect-[16/10] md:aspect-auto object-cover rounded-2xl"

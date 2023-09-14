@@ -13,16 +13,16 @@ async function getData() {
   return res.json();
 }
 
-const Mac = async () => {
+const Ipad = async () => {
   const data = await getData();
 
-  const mac = data.filter((product) => product.category === "Mac");
+  const ipad = data.filter((product) => product.category === "Ipad");
 
   return (
     <main className="px-10">
       <Nav />
       <div className="ml-20 mt-10 flex justify-start flex-wrap ">
-        {mac.map((products) => (
+        {ipad.map((products) => (
           <div key={products}>
             <ProductCards
               title={products.productName}
@@ -38,4 +38,4 @@ const Mac = async () => {
   );
 };
 
-export default Mac;
+export default Ipad;
